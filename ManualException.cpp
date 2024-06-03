@@ -8,5 +8,8 @@ int main() {
         cout << "pernyataan tidak akan dieksekusi" << endl;
     }
 
-    
+    catch (int a) {
+        // blok ini akan dieksekusi
+        cout << "pengecualian akan dieksekusi" << endl;
+    }
 }
