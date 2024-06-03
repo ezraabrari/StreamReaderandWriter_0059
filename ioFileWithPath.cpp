@@ -6,4 +6,15 @@ using namespace std;
 int main() {
     string baris;
     string NamaFile;
+
+    cout << "Masukkan Nama File : ";
+    cin >> NamaFile;
+
+    ofstream outfile;
+
+    outfile.open(NamaFile + ".txt", ios::out);
+
+    cout << ">= Menulis File, \'q\' untuk keluar" << endl;
+
+    
 }
