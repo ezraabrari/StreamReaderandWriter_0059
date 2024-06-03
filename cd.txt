@@ -1,0 +1,1 @@
+ "e:\StreamReaderandWriter_0059\" ; if ($?) { g++ ioFileWithPath.cpp -o ioFileWithPath } ; if ($?) { .\ioFileWithPath }
