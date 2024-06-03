@@ -33,6 +33,9 @@ int main () {
             cout << baris << '\n';
         }
 
-    infile.close();
+         infile.close();
     }
+
+    else cout << "unabel to open file";
+    return 0;
 }
